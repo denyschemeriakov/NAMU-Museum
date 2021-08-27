@@ -18,6 +18,7 @@
   &__image {
     margin-bottom: 20px;
     width: 100%;
+    cursor: pointer;
     transition: all 0.3s;
 
     &:hover {
@@ -42,6 +43,7 @@
 
   &__title {
     margin-bottom: 10px;
+    cursor: pointer;
 
     @extend %title-font-styles;
     font-size: 18px;
@@ -57,5 +59,6 @@
   &__description {
     @extend %article-font-styles;
     color: $secondary-font-color;
+    cursor: pointer;
   }
 }
